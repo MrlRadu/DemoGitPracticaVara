@@ -1,2 +1,6 @@
 "Carpe Diem"
+<<<<<<< HEAD
 Coca Cola și Pepsi nu au același gust!
+=======
+"Un prieten, când e un om, întrece și pe-un frate." – Homer
+>>>>>>> eaa78e31531fa3c71af8fac36f815ef902d9bf56
