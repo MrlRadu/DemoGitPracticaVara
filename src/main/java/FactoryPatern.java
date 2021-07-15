@@ -4,13 +4,13 @@ public class FactoryPatern {
         if(shapeType == null){
             return null;
         }
-        if(shapeType.equalsIgnoreCase("CIRCLE")){
+        if(shapeType.equalsIgnoreCase("Cerc")){
             return new Circle();
 
-        } else if(shapeType.equalsIgnoreCase("RECTANGLE")){
+        } else if(shapeType.equalsIgnoreCase("dreptunghi")){
             return new Rectangle();
 
-        } else if(shapeType.equalsIgnoreCase("SQUARE")){
+        } else if(shapeType.equalsIgnoreCase("patrat")){
             return new Square();
         }
 
