@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4537fff-0bd4-4002-bd6c-5796bb82f829" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ListIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestList.java" afterDir="false" />
+    <list default="true" id="f4537fff-0bd4-4002-bd6c-5796bb82f829" name="Default Changelist" comment="fact">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MapIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestList.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +56,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="JUnit.TestList">
+  <component name="RunManager" selected="JUnit.TestMap">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="demoGit" />
@@ -61,13 +64,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -81,8 +86,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demoGit" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestMap" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestMap" />
         <item itemvalue="JUnit.TestList" />
         <item itemvalue="Application.Main" />
       </list>
@@ -97,8 +112,12 @@
       <option name="presentableId" value="Default" />
       <updated>1626356509311</updated>
       <workItem from="1626356510457" duration="4000" />
+      <workItem from="1626599560716" duration="5012000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
