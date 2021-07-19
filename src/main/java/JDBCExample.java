@@ -11,7 +11,7 @@ public class JDBCExample {
 
     public static void main(String[] args) {
         Connection conn = null;
-        Statement stmt = null;
+        PreparedStatement stmt = null;
         try {
             //STEP 2: Register JDBC driver
             Class.forName("oracle.jdbc.driver.OracleDriver");
@@ -23,12 +23,26 @@ public class JDBCExample {
 
             //STEP 4: Execute a query
             System.out.println("Creating statement...");
-
-            String sql = "SELECT username, password, email FROM Users";
+            String sql = "UPDATE Users set password=? WHERE username=?";
             stmt = conn.prepareStatement(sql);
 
+            //Bind values into the parameters.
+            stmt.setString(1, "mraP");  // This would set password
+            stmt.setString(2, "mariap78"); // This would set username
+
+            // Let us update password of the record with username = mariap78;
+            int rows = stmt.executeUpdate();
+            System.out.println("Rows impacted : " + rows );
+
+            // Let us select all the records and display them.
+            sql = "SELECT username, password, email FROM Users";
             ResultSet rs = stmt.executeQuery(sql);
 
+//            String sql = "SELECT username, password, email FROM Users";
+//            stmt = conn.prepareStatement(sql);
+//
+//            ResultSet rs = stmt.executeQuery(sql);
+//
             //STEP 5: Extract data from result set
             while (rs.next()) {
                 //Retrieve by column name
