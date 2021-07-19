@@ -5,11 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4537fff-0bd4-4002-bd6c-5796bb82f829" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Adunare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AdunareTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JDBCExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AdunareTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AdunareTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Adunare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FactoryPatternDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ShapeFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AdunareTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AdunareTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,14 +53,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="JUnit.AdunareTest">
-    <configuration name="FactoryPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FactoryPatternDemo" />
+  <component name="RunManager" selected="Application.JDBCExample">
+    <configuration name="JDBCExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JDBCExample" />
       <module name="DemoGit" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -65,13 +74,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -105,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JDBCExample" />
         <item itemvalue="JUnit.AdunareTest" />
         <item itemvalue="JUnit.AdunareTest.sumTest" />
         <item itemvalue="JUnit.All in DemoGit" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.FactoryPatternDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -122,8 +133,14 @@
       <option name="presentableId" value="Default" />
       <updated>1626356509311</updated>
       <workItem from="1626356510457" duration="4000" />
+      <workItem from="1626681530883" duration="3715000" />
+      <workItem from="1626685406601" duration="121000" />
+      <workItem from="1626685589481" duration="669000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -138,21 +155,53 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1626363459247">
+    <state x="121" y="0" key="#Project_Structure" timestamp="1626685752371">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626363459247" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1626363459247">
+    <state x="121" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1626685752371" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1626685914223">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1626363459247" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1626363459246">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1626685914223" />
+    <state x="710" y="35" key="#xdebugger.evaluate" timestamp="1626683438685">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1626363459246" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1626363459247">
+    <state x="710" y="35" key="#xdebugger.evaluate/0.0.1280.680@0.0.1280.680" timestamp="1626683438685" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1626686233260">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1626363459247" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626686233260" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1626686233260">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1626686233260" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1626686233260">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1626686233260" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1626686233260">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1626686233260" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1626685250620">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626685250620" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1626685250620">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1626685250620" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1626685250620">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1626685250620" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1626685250620">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1626685250620" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1626685208608">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1626685208608" />
   </component>
 </project>
