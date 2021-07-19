@@ -27,7 +27,7 @@ public class JDBCExample {
             stmt = conn.prepareStatement(sql);
 
             //Bind values into the parameters.
-            stmt.setString(1, "mraP");  // This would set password
+            stmt.setString(1, "mra77");  // This would set password
             stmt.setString(2, "mariap78"); // This would set username
 
             // Let us update password of the record with username = mariap78;

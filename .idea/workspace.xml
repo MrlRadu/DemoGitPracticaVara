@@ -45,7 +45,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.JavaCollectionsHomeworkMain">
+  <component name="RunManager" selected="Application.JDBCExample">
     <configuration name="JDBCExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JDBCExample" />
       <module name="DemoGit" />
@@ -100,8 +100,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JavaCollectionsHomeworkMain" />
         <item itemvalue="Application.JDBCExample" />
+        <item itemvalue="Application.JavaCollectionsHomeworkMain" />
         <item itemvalue="JUnit.AdunareTest" />
         <item itemvalue="JUnit.AdunareTest.sumTest" />
         <item itemvalue="JUnit.All in DemoGit" />
