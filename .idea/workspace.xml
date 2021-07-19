@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4537fff-0bd4-4002-bd6c-5796bb82f829" name="Default Changelist" comment="fact">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Map.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MapIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SimulateQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SimulateSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestList.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +44,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -56,7 +53,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="JUnit.TestMap">
+  <component name="RunManager" selected="Application.SimulateQueue">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="demoGit" />
@@ -64,15 +61,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration name="SimulateQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SimulateQueue" />
+      <module name="demoGit" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimulateSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SimulateSet" />
+      <module name="demoGit" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -97,6 +106,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SimulateQueue" />
+        <item itemvalue="Application.SimulateSet" />
         <item itemvalue="JUnit.TestMap" />
         <item itemvalue="JUnit.TestList" />
         <item itemvalue="Application.Main" />
@@ -112,7 +123,8 @@
       <option name="presentableId" value="Default" />
       <updated>1626356509311</updated>
       <workItem from="1626356510457" duration="4000" />
-      <workItem from="1626599560716" duration="5012000" />
+      <workItem from="1626599560716" duration="5090000" />
+      <workItem from="1626675909751" duration="2884000" />
     </task>
     <servers />
   </component>
