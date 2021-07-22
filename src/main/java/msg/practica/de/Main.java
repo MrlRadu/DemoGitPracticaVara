@@ -28,13 +28,20 @@ public class Main {
         // create new todo
         em.getTransaction().begin();
 
-        User user = new User();
-        user.setFirstName("radu");
-        user.setLastName("muntean");
-        user.setEmail("radu.muntean@msg.de");
-        user.setPassword("topsecret");
+//        User user = new User();
+//        user.setFirstName("radu");
+//        user.setLastName("muntean");
+//        user.setEmail("radu.muntean@msg.de");
+//        user.setPassword("topsecret");
 
-        em.persist(user);
+        User user2 = new User();
+        user2.setFirstName("Rares");
+        user2.setLastName("Dan");
+        user2.setEmail("rares.dan.g@gmail.com");
+        user2.setPassword("superPassWord");
+
+//        em.persist(user);
+        em.persist(user2);
         em.getTransaction().commit();
 
         em.close();
