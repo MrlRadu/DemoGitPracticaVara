@@ -4,6 +4,8 @@
 
         <class>msg.practica.de.model.User</class>
         <class>msg.practica.de.model.Address</class>
+        <class>msg.practica.de.model.User2</class>
+        <class>msg.practica.de.model.Product</class>
 
         <properties>
             <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
