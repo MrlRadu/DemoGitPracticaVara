@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="NewProjectWithLogin" />
         <module name="DemoGit" />
+        <module name="demoGit" />
       </profile>
     </annotationProcessing>
   </component>
