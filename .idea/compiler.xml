@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="NewProjectWithLogin" />
         <module name="DemoGit" />
-        <module name="DemoGitPracticaVara" />
       </profile>
     </annotationProcessing>
   </component>
