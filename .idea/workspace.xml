@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d112d08b-3106-4f2e-9fa8-75e45030c063" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/msg/practica/de/model/Address.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/msg/practica/de/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/msg/practica/de/ManyToOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/msg/practica/de/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/msg/practica/de/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,13 +36,13 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-206" />
-    <option name="y" value="-29" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectId" id="1vfk6HxA1qOgXBwHNpVMWqZHSuW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -52,8 +53,8 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="msg.practica.de.Main" />
+    <configuration name="ManyToOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="msg.practica.de.ManyToOne" />
       <module name="DemoGit" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -74,10 +75,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ManyToOne" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -91,14 +93,40 @@
       <workItem from="1626786617819" duration="3473000" />
       <workItem from="1626854580612" duration="7511000" />
       <workItem from="1626931339200" duration="2649000" />
+      <workItem from="1626960363622" duration="85000" />
+      <workItem from="1626960465087" duration="18000" />
+      <workItem from="1626971198378" duration="6068000" />
+      <workItem from="1626986001884" duration="5562000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="446" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1626990760328">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1626990760328" />
+    <state width="1237" height="51" key="GridCell.Tab.0.bottom" timestamp="1626990997765">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="51" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1626990997765" />
+    <state width="1237" height="51" key="GridCell.Tab.0.center" timestamp="1626990997764">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="51" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1626990997764" />
+    <state width="1237" height="51" key="GridCell.Tab.0.left" timestamp="1626990997764">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="51" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1626990997764" />
+    <state width="1237" height="51" key="GridCell.Tab.0.right" timestamp="1626990997765">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="51" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1626990997765" />
   </component>
   <component name="masterDetails">
     <states>
